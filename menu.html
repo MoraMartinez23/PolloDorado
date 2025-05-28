@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú - El Buen Pollo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d9534f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f8f9fa;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #d9534f;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .menu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .platillo {
+      width: 300px;
+      max-width: 100%;
+      text-align: center;
+    }
+    .platillo img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    .platillo h2 {
+      margin-bottom: 5px;
+    }
+    .precio {
+      font-weight: bold;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <img src="logo.png" alt="Logo de Pollera El Buen Pollo" style="height: 60px; margin-right: 20px;">
+      <div>
+        <h1>Menú</h1>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="equipo.html">Equipo de Trabajo</a>
+    <a href="donde.html">Dónde</a>
+  </nav>
+
+  <section>
+    <div class="menu-grid">
+      <div class="platillo">
+        <h2>Asado</h2>
+        <p class="precio">Desde $60.000 a $220.000</p>
+        <img src="asado.png" alt="Pollo Asado">
+      </div>
+      <div class="platillo">
+        <h2>Rostizado</h2>
+        <p class="precio">Desde $60.000 a $220.000</p>
+        <img src="rostizado.png" alt="Pollo Rostizado">
+      </div>
+      <div class="platillo">
+        <h2>Barbacoa</h2>
+        <p class="precio">Desde $120.000 a $240.000</p>
+        <img src="barbacoa.png" alt="Barbacoa">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+
